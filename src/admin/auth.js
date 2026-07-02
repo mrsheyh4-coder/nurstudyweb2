@@ -5,7 +5,7 @@ export function getConfiguredPassword() {
   const fromEnv = import.meta.env.VITE_ADMIN_PASSWORD;
   if (fromEnv) return fromEnv;
   if (import.meta.env.DEV) return 'admin';
-  return '';
+  return 'admin8179';
 }
 
 export function isAdminSession() {
